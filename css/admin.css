@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+
+
+
+/*body*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+
+
+/* header */
+
+header.header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+header.header .titel h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Playwrite IN', sans-serif;
+}
+
+
+
+/* nav */
+
+.navigatie img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+}
+.navigatie ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.navigatie ul li {
+    margin: 0 15px;
+}
+.navigatie ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.navigatie ul li a:hover {
+    color: blue;
+    background-color: orange;
+    border-radius: 6px;
+}
+
+
+
+/* logout */
+.logout {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.logout:hover {
+    background-color: darkred;
+    transform:scale(1.1);
+}
+
+
+
+/* admin main*/
+
+main.admin {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/* zoken*/
+.zoek {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.zoek input{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 300px;
+    width: 100%;
+}
+.zoek button {
+    padding: 8px 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.zoek button:hover {
+    background-color: #444;
+}
+
+
+
+
+/* overzicht films */
+
+.table-films {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+.table-films th,
+.table-films td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+.table-films th {
+    background-color: white;
+}
+.table-films tr:hover {
+    background-color: lightgrey;
+}
+.table-films a {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: white;
+}
+.table-films a.bewerken{
+    background-color: #004b9b;
+}
+.table-films a.bewerken:hover {
+    background-color: #007bff;
+}
+.table-films a.verwijderen {
+    background-color: #dc3545;
+}
+.table-films a.verwijderen:hover {
+    background-color: #7f0c17;
+}
+
+
+
+
+
+/* film toevoegen */
+
+.toevoegen {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.toevoegen input,
+.toevoegen textarea,
+.toevoegen button {
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+.toevoegen button {
+    background-color: black;
+    color: white;
+}
+.toevoegen button:hover {
+    background-color: green;
+}
+
+
+
+
+/* Footer */
+footer.admin-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
